@@ -71,6 +71,8 @@ public class ImageAdapter extends BaseAdapter {
         Picasso.get()
                 .load(imageInfosList.get(position).getPicUrl())
                 .transform(new CropSquareTransformation())
+                .placeholder(R.drawable.user_placeholder)
+                .error(R.drawable.user_placeholder_error)
                 .into(holder.image_view);
         return convertView;
     }
