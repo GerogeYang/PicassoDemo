@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PicassoDemo</string>
+    <string name="image">图片</string>
+    <string name="iv_title">标题：</string>
+    <string name="iv_author">作者：</string>
+    <string name="image_title">美食图片</string>
+    <string name="image_author">Mr杨</string>
+</resources>
